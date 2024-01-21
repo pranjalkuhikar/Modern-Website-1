@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#main nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100px;
+  gap: 40px;
+  padding: 0 50px;
+}
+
+#main nav h4 {
+  font-weight: 300;
+  font-size: 25px;
+}
+
+#main nav i {
+  font-size: 25px;
+  font-weight: 400;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+#hero {
+  padding: 20px 90px;
+}
+
+#hero h1 {
+  font-size: 80px;
+  font-weight: 500;
+}
+
+#hero #inner {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#hero #inner .left {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#hero #inner .right {
+  width: 20%;
+}
+#hero #inner .right .ele {
+  padding: 20px 0;
+  border-top: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#hero #inner .right a {
+  text-decoration: none;
+  padding: 0 20px;
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+}
+
+#hero #inner .right .ele i {
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 1;
+}
+
+.ele:hover {
+  background-color: #c7c3c3;
+}
+
+#video video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  margin-top: -40px;
+  background-position: 50%;
+}
